@@ -12,7 +12,7 @@ const About = () => {
         {/* Grid 1 */}
         <div className="flex items-end grid-default-color grid-1 portrait-card">
           <img
-            src="/assets/arnav-portrait.jpg"
+            src={`${import.meta.env.BASE_URL}assets/arnav-portrait.jpg`}
             alt="Arnav Nethula"
             className="portrait-image"
           />
@@ -60,8 +60,8 @@ const About = () => {
           <article className="about-highlight" id="certifications">
             <h3>Certifications</h3>
             <ul className="certification-list">
-              <li><img className="certification-badge-image" src="/assets/certifications/cloud_prac.webp" alt="AWS Certified Cloud Practitioner badge" loading="lazy" /><div><span className="certification-issuer">AWS Certified</span><h4>Cloud Practitioner</h4></div></li>
-              <li><img className="certification-badge-image" src="/assets/certifications/ai_prac.webp" alt="AWS Certified AI Practitioner badge" loading="lazy" /><div><span className="certification-issuer">AWS Certified</span><h4>AI Practitioner</h4></div></li>
+              <li><img className="certification-badge-image" src={`${import.meta.env.BASE_URL}assets/certifications/cloud_prac.webp`} alt="AWS Certified Cloud Practitioner badge" loading="lazy" /><div><span className="certification-issuer">AWS Certified</span><h4>Cloud Practitioner</h4></div></li>
+              <li><img className="certification-badge-image" src={`${import.meta.env.BASE_URL}assets/certifications/ai_prac.webp`} alt="AWS Certified AI Practitioner badge" loading="lazy" /><div><span className="certification-issuer">AWS Certified</span><h4>AI Practitioner</h4></div></li>
             </ul>
           </article>
           <article className="about-highlight research-highlight" id="research">

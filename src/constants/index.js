@@ -9,7 +9,7 @@ export const myProjects = [
       "Integrated Supabase authentication and account-based alert subscriptions, with a Raspberry Pi deployment workflow."
     ],
     "href": "",
-    "image": "/assets/projects/cvm4x.png",
+    "image": `${import.meta.env.BASE_URL}assets/projects/cvm4x.png`,
     "tags": [
       {
         "id": 1,
@@ -47,7 +47,7 @@ export const myProjects = [
       "Used Mistral-powered agents to generate and discuss possible AI headlines from research, business, and ethics perspectives."
     ],
     "href": "",
-    "image": "/assets/projects/raise.png",
+    "image": `${import.meta.env.BASE_URL}assets/projects/raise.png`,
     "tags": [
       {
         "id": 1,
@@ -81,7 +81,7 @@ export const myProjects = [
       "Provided a human review interface for refining variables and validating table mappings before export."
     ],
     "href": "https://github.com/Sravya-Pogiri/table_shells",
-    "image": "/assets/projects/tablerag.png",
+    "image": `${import.meta.env.BASE_URL}assets/projects/tablerag.png`,
     "tags": [
       {
         "id": 1,
@@ -111,7 +111,7 @@ export const myProjects = [
       "Designed an assistant users can interact with through text or voice to better understand their finances."
     ],
     "href": "",
-    "image": "/assets/projects/finwise.png",
+    "image": `${import.meta.env.BASE_URL}assets/projects/finwise.png`,
     "tags": [
       {
         "id": 1,
@@ -141,7 +141,7 @@ export const myProjects = [
       "Presented anomaly detections and risk levels through a unified dashboard to support maritime security analysis."
     ],
     "href": "",
-    "image": "/assets/projects/MaritimeRiskSecurity.png",
+    "image": `${import.meta.env.BASE_URL}assets/projects/MaritimeRiskSecurity.png`,
     "tags": [
       {
         "id": 1,
@@ -171,7 +171,7 @@ export const myProjects = [
       "Currently focuses on individual images. Before-and-after route comparison has a basic implementation and remains in development."
     ],
     "href": "",
-    "image": "/assets/projects/CVDamageDetection.png",
+    "image": `${import.meta.env.BASE_URL}assets/projects/CVDamageDetection.png`,
     "tags": [
       {
         "id": 1,

@@ -11,7 +11,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 
 export function Astronaut(props) {
   const group = useRef();
-  const { scene, animations } = useGLTF("/models/toy_robot_domowik.glb");
+  const { scene, animations } = useGLTF(`${import.meta.env.BASE_URL}models/toy_robot_domowik.glb`);
   const { actions } = useAnimations(animations, group);
 
   useEffect(() => {
@@ -27,4 +27,4 @@ export function Astronaut(props) {
   );
 }
 
-useGLTF.preload("/models/toy_robot_domowik.glb");
+useGLTF.preload(`${import.meta.env.BASE_URL}models/toy_robot_domowik.glb`);

@@ -10,7 +10,7 @@ const logos = Object.keys(import.meta.glob("/public/assets/logos/*.{svg,png,webp
   .map((path) => {
     const filename = path.split("/").pop();
     const name = filename.replace(/\.[^.]+$/, "");
-    return { src: path.replace("/public", ""), name: labels[name] ?? name };
+    return { src: `${import.meta.env.BASE_URL}${path.replace("/public/", "")}`, name: labels[name] ?? name };
   }).sort((a, b) => a.name.localeCompare(b.name));
 
 export function Frameworks() {
